@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@plugin "@midudev/tailwind-animations";
 
 .backnavbar {
     background: rgb(8,18,31);

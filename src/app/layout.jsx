@@ -12,10 +12,10 @@ export default function RootLayout({ children }) {
     <div>
       <html lang="es">
         <body>
-          <div className="fixed bg-purple-950 w-full h-44 top-0 [mask-image:linear-gradient(black_0%,transparent)]"></div>
+          <div className="fixed animate-fade-in bg-purple-950 w-full h-44 top-0 [mask-image:linear-gradient(black_0%,transparent)]"></div>
             <Navbar />
             {children}
-          <div className="fixed bg-purple-950 w-full h-44 bottom-0 [mask-image:linear-gradient(transparent,black_110%)]"></div>
+          <div className="fixed animate-fade-in bg-purple-950 w-full h-44 bottom-0 [mask-image:linear-gradient(transparent,black_110%)]"></div>
         </body>
       </html>
       {/* <Footer /> */}

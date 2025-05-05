@@ -7,13 +7,13 @@ export default function Navbar() {
     return (
         <div>
             <div
-                className="shadowwhite fixed top-6 left-1/2 -translate-x-1/2 hidden sm:flex w-3/4 md:w-2/4 h-auhref justify-between items-center
-                           font-semibold text-xl md:text-lg lg:text-2xl py-4 px-8 md:px-12 rounded-xl backnavbar shadow-2xl
+                className="animate-fade-in shadowwhite fixed top-6 left-1/2 -translate-x-1/2 hidden sm:flex w-3/4 md:w-2/4 h-auhref justify-between items-center
+                           font-semibold text-xl md:text-lg lg:text-2xl px-8 md:px-12 rounded-xl backnavbar shadow-2xl
                            text-white tracking-widest">
-                <Link href="../../teams" className="hover:scale-110 hover:transition-transform">EQUIPOS</Link>
-                <Link href="../../" className="hover:scale-110 hover:transition-transform">INICIO</Link>
-                <Link href="../../guies" className="hover:scale-110 hover:transition-transform">GUIAS</Link>
-                <Link href="../../farms" className="hover:scale-110 hover:transition-transform">FARMEO</Link>
+                <Link href="../../teams" className="hover:scale-110 py-4 hover:duration-300">EQUIPOS</Link>
+                <Link href="../../" className="hover:scale-110 py-4 hover:duration-300">INICIO</Link>
+                <Link href="../../guies" className="hover:scale-110 py-4 hover:duration-300">GUIAS</Link>
+                <Link href="../../farms" className="hover:scale-110 py-4 hover:duration-300">FARMEO</Link>
             </div>
 
             <Link className="" href="../../">
