@@ -16,7 +16,7 @@
 body {
     background-image: 
         linear-gradient(rgba(32, 14, 38, 0.5), rgba(32, 14, 38, 0.5)), 
-        url('./images/abyss_background_wide.webp'); 
+        url('./images/home/abyss_background_wide.webp'); 
     background-size: cover; 
     background-position: center; 
     background-attachment: fixed;

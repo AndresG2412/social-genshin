@@ -1,5 +1,6 @@
 import "./globals.css";
-import Navbar from "./components/client/Navbar";
+import Navbar from "./components/common/Navbar";
+import Footer from "./components/common/Footer";
 
 export const metadata = {
   title: "Social Genshin",
@@ -8,11 +9,16 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="es">
-      <body>
-        <Navbar />
-        {children}
-      </body>
-    </html>
+    <div>
+      <html lang="es">
+        <body>
+          <div className="fixed bg-purple-950 w-full h-44 top-0 [mask-image:linear-gradient(black_0%,transparent)]"></div>
+            <Navbar />
+            {children}
+          <div className="fixed bg-purple-950 w-full h-44 bottom-0 [mask-image:linear-gradient(transparent,black_110%)]"></div>
+        </body>
+      </html>
+      {/* <Footer /> */}
+    </div>
   );
 }
