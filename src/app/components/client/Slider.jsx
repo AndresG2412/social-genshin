@@ -6,14 +6,14 @@ export default function Slider() {
     const [characters, setCharacters] = useState([]);
 
     useEffect(() => {
-        fetch("../../../Data.json") // Reemplaza con la URL correcta de tu JSON
+        fetch("/Data.json")
             .then(response => response.json())
             .then(data => setCharacters(data))
             .catch(error => console.error("Error al obtener los datos:", error));
     }, []);
 
     return (
-        <div className="mt-36 overflow-hidden">
+        <div className="overflow-hidden">
             <div className="slider md:w-[60vw] w-[85vw]">
                 <div className="slide-track flex">
                     {characters.concat(characters).map((char, index) => (
