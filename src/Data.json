@@ -1,0 +1,42 @@
+[
+    {
+        "id": "1",
+        "Nombre": "Xiao",
+        "imagen": "../src/images/icons/xiao.png"
+    },
+    {
+        "id": "2",
+        "Nombre": "Diluc",
+        "imagen": "../src/images/icons/diluc.png"
+    },
+    {
+        "id": "3",
+        "Nombre": "Arlequino",
+        "imagen": "../src/images/icons/arlequino.png"
+    },
+    {
+        "id": "4",
+        "Nombre": "Xinqiu",
+        "imagen": "../src/images/icons/xinqiu.png"
+    },
+    {
+        "id": "5",
+        "Nombre": "Fischl",
+        "imagen": "../src/images/icons/fischl.png"
+    },
+    {
+        "id": "6",
+        "Nombre": "Noelle",
+        "imagen": "../src/images/icons/noelle.png"
+    },
+    {
+        "id": "7",
+        "Nombre": "Cyno",
+        "imagen": "../src/images/icons/cyno.png"
+    },
+    {
+        "id": "8",
+        "Nombre": "Raiden",
+        "imagen": "../src/images/icons/raiden.png"
+    }
+]
