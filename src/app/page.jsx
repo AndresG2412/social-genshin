@@ -1,9 +1,14 @@
 import React from 'react'
+import Slider from './components/client/Slider'
+import Eventos from './components/client/Eventos'
 
 export default function Home() {
     return (
-        <div className='h-[3000px] pt-24'>
-            Home page
+        <div>
+            <section className='h-screen w-screen flex flex-col items-center justify-center'>
+                <Eventos />
+                <Slider />
+            </section>
         </div>
     )
 }
